@@ -3,12 +3,12 @@ import React from 'react'
 
 const InfoCard = () => {
   return (
-    <div>
-      <div>
-        <h2></h2>
+    <div className='info-card-container'>
+      <div className='card-header'>
+        <h2>Location</h2>
       </div>
-      <div>
-       <p></p>
+      <div className='card-body'>
+       <p>Details of Sighting</p>
       </div>
     </div>
   )
