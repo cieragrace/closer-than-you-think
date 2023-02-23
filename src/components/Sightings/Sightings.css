@@ -1,0 +1,8 @@
+.Sightings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8%;
+  height: 70%;
+  width: 100%;
+  background-image: url(/src/assets/images/sky-background.png);
+}
